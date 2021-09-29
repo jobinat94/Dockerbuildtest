@@ -1,4 +1,4 @@
-FROM rhel8/rhel-guest-image:latest
+FROM rhel7.7:latest
 EXPOSE 8080
 USER root
 #COPY ./etc-pki-entitlement /etc/pki/entitlement
