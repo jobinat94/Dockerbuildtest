@@ -1,4 +1,4 @@
-FROM rhel7.7:latest
+FROM registry.access.redhat.com/rhel7.7:latest
 EXPOSE 8080
 USER root
 #COPY ./etc-pki-entitlement /etc/pki/entitlement
